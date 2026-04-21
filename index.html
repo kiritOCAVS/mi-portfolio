@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Dev Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="theme-toggle">
+    <button id="themeToggle" class="theme-btn">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>¡Hola! Soy Desarrollador Full Stack</h2>
+            <p>Especializado en JavaScript, Node.js y aplicaciones web</p>
+            <a href="#proyectos" class="btn btn-primary">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <div class="content">
+                <p>
+                    Soy un desarrollador apasionado por crear aplicaciones funcionales y solucionar problemas 
+                    con código. Tengo experiencia trabajando con JavaScript tanto en frontend como en backend, 
+                    y he completado varios proyectos que demuestran mis habilidades.
+                </p>
+                <p>
+                    Actualmente estoy enfocado en mejorar mis habilidades en desarrollo full stack y estoy 
+                    interesado en trabajar en proyectos desafiantes que me permitan crecer profesionalmente.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section section-alt">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1: Bots Discord -->
+                <div class="project-card">
+                    <h3>Bots Discord Personalizados</h3>
+                    <p>
+                        Desarrollo de múltiples bots para Discord usando Discord.js. Incluyen sistemas de 
+                        moderación, comandos personalizados y manejo de eventos.
+                    </p>
+                    <ul class="tech-list">
+                        <li>JavaScript</li>
+                        <li>Node.js</li>
+                        <li>Discord.js</li>
+                        <li>SQLite/MongoDB</li>
+                    </ul>
+                    <p class="description">
+                        Creé varios bots con diferentes funcionalidades: sistemas de tickets, 
+                        roles automáticos, comandos de utilidad y gestión de servidores.
+                    </p>
+                    <a href="https://github.com" class="btn btn-secondary">Ver código</a>
+                </div>
+
+                <!-- Proyecto 2: Simulador de Préstamos -->
+                <div class="project-card">
+                    <h3>Simulador de Préstamos Personales</h3>
+                    <p>
+                        Aplicación para simular préstamos personales con diferentes planes de cuotas e intereses.
+                        Los datos se guardan automáticamente en el navegador.
+                    </p>
+                    <ul class="tech-list">
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>LocalStorage</li>
+                    </ul>
+                    <p class="description">
+                        Simulador con planes de 12, 24, 36 y 48 cuotas con intereses ajustables.
+                        Incluye historial de simulaciones guardado en localStorage.
+                    </p>
+                    <a href="https://github.com" class="btn btn-secondary">Ver código</a>
+                </div>
+
+                <!-- Proyecto 3: LyG Motos E-commerce -->
+                <div class="project-card">
+                    <h3>LyG Motos - E-commerce</h3>
+                    <p>
+                        E-commerce de productos para motocicletas con React. 
+                        Incluye carrito, checkout y integración con Firebase para la base de datos.
+                    </p>
+                    <ul class="tech-list">
+                        <li>React</li>
+                        <li>Firebase</li>
+                        <li>React Router</li>
+                        <li>Vite</li>
+                    </ul>
+                    <p class="description">
+                        Tienda online con categorías (cubiertas, cascos, accesorios), carrito persistente, 
+                        formulario de compra y órdenes guardadas en Firestore.
+                    </p>
+                    <a href="https://github.com" class="btn btn-secondary">Ver código</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>APIs REST</li>
+                        <li>Autenticación</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Bases de Datos</h3>
+                    <ul>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                        <li>SQL Básico</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group">
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>npm/Vite</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Estadísticas -->
+<section id="estadisticas" class="section">
+    <div class="container">
+        <h2>Impacto y Logros</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" data-target="15">0</div>
+                <div class="stat-label">Proyectos Completados</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="3">0</div>
+                <div class="stat-label">Años de Experiencia</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="25">0</div>
+                <div class="stat-label">Clientes Satisfechos</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">Commits en GitHub</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Testimonios -->
+<section id="testimonios" class="section section-alt">
+    <div class="container">
+        <h2>Lo que dicen de mí</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "Excelente desarrollador, muy profesional y cumplió con todos los plazos establecidos."
+                </div>
+                <div class="testimonial-author">
+                    <strong>Juan Pérez</strong>
+                    <span>CEO de TechStart</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "Gran capacidad para resolver problemas y excelente comunicación durante el proyecto."
+                </div>
+                <div class="testimonial-author">
+                    <strong>María González</strong>
+                    <span>Project Manager</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    "El código es limpio, bien documentado y fácil de mantener. Un profesional destacado."
+                </div>
+                <div class="testimonial-author">
+                    <strong>Carlos Rodríguez</strong>
+                    <span>Lead Developer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section section-alt">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contact-content">
+                <p>¿Te gustaría trabajar conmigo o conocer más sobre mis proyectos?</p>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+                <div class="social-links">
+                    <p>También puedes contactarme en:</p>
+                    <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="mailto:tu@email.com" class="social-link">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mi Portfolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "mi-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio personal para buscar trabajo como desarrollador full stack",
+  "main": "index.html",
+  "scripts": {
+    "start": "Abre el archivo index.html en tu navegador",
+    "deploy": "Sube el contenido a GitHub Pages o un servidor web"
+  },
+  "keywords": [
+    "portfolio",
+    "javascript",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
